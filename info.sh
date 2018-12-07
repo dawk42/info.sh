@@ -1,8 +1,8 @@
 #!/bin/bash
 #########################################################################################
 #  Name:        Derek Van Vuuren
-#  Date:        20181206
-#  Version:     1.8.5
+#  Date:        20181207
+#  Version:     1.8.7
 #  Description: info.sh is a script designed to aid in information gathering
 #               it provide ping, nslookup, and whois capabilites
 #               if your system does not have the prerequisite commands
@@ -166,10 +166,11 @@ function help
 ║        info.sh www.example.com d                                          ║
 ║                                                                           ║
 ║ Date:         20181206                                                    ║
-║ Version:      1.8.6                                                       ║
+║ Version:      1.8.7                                                       ║
 ║ Author:       Derek L. Van Vuuren                                         ║
 ║ E-mail:       derek.vanvuuren@gmail.com                                   ║
 ║ E-mail:       vanvuuren2823@student.cptc.edu                              ║
+║ Github:       https://github.com/dawk42/info.sh/                          ║
 ╚═══════════════════════════════════════════════════════════════════════════╝"
 }
 # Determines which variables are set and makes a desicion what to do
